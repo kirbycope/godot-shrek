@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cr5bkb75yp70f"]
+
+[ext_resource type="Texture2D" uid="uid://c63oqln3dlr28" path="res://assets/bald-cypress/textures/CypresChauve_mousse_D.png" id="1_2lu5g"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ouxpt"]
+transparency = 1
+cull_mode = 2
+albedo_texture = ExtResource("1_2lu5g")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2d7or"]
+material = SubResource("StandardMaterial3D_ouxpt")
+
+[node name="Moss" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_2d7or")

@@ -1,0 +1,52 @@
+[gd_scene load_steps=6 format=4 uid="uid://bj2vbcm2s0f3s"]
+
+[ext_resource type="Texture2D" uid="uid://clong6tav3d0r" path="res://assets/ivy_for_games_for_free/textures/Ivy_mat_baseColor.png" id="1_mrlkv"]
+[ext_resource type="Texture2D" uid="uid://dth60ubj3pdya" path="res://assets/ivy_for_games_for_free/textures/Ivy_mat_normal.png" id="2_70mku"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vke7u"]
+resource_name = "Ivy_mat"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_mrlkv")
+roughness = 0.552786
+normal_enabled = true
+normal_texture = ExtResource("2_70mku")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mftwp"]
+_surfaces = [{
+"aabb": AABB(-2.92419, -3.15595, -0.728228, 5.63765, 6.58388, 0.898632),
+"format": 34896654337,
+"index_count": 72,
+"index_data": PackedByteArray("AAACAAEAAAADAAIABAAFAAMAAAAEAAMABgAIAAcABgAHAAkACgAJAAsABgAJAAoADAAOAA0ADAANAA8AEAAPABEADAAPABAAEgAUABMAEgAVABQAFgAXABUAEgAWABUAGAAaABkAGAAbABoAHAAdABsAGAAcABsAHgAgAB8AHgAhACAAIgAjACEAHgAiACEA"),
+"name": "Ivy_mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("fZDAdd3PAACFV2BiaP0AAO0iy7uqKAAA0Wdv2UoVAABKz8OQSMQAAH2ZAO1ZMQAAqoaDbs/PAAD///lfkU4AAFOcg0OB+AAAWOrjl/I9AADvcnyhf8cAADHZ+r42WAAA2H2EcfDPAAAumf//AAAAAFTEf4ff+AAAdD+T5/wHAACqLC9adLAAAAAAntXVHAAAjHfEfs7PAABVaIGqgO0AAAjKhcjZKgAA8d9ikkkvAABtij1NcrgAAAfv0WtIPQAAE4gfhrzPAAAWstKDL+oAAHaySj4ZUAAAj31tPh9NAADwV7qG/cAAAAhYIj8UWwAACZLrfuTPAABOx8pc//8AAGWDAAAGKgAAgTwPJnwYAACAUbGhU8MAAGILikKpNgAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_da85p"]
+resource_name = "Sketchfab_Scene_Object_2"
+_surfaces = [{
+"aabb": AABB(-2.92419, -3.15595, -0.728228, 5.63765, 6.58388, 0.898632),
+"attribute_data": PackedByteArray("U4gAAP//sdloVAg/AAAAAP//AAD//7HZAACAPwAAAAD////////m/wAAgD8AAIA/V2r/////5v95r9Q+AACAPwAAAAD//7HZAAAAAAAAAAAAAP/////m/wAAAAAAAIA/U4gAAP//sdloVAg/AAAAAP///////xr/AACAPwAAgD///wAA//+x2QAAgD8AAAAAV2r/////0v95r9Q+AACAPwAAAAD//7HZAAAAAAAAAAAAAP/////E/QAAAAAAAIA/U4gAAP//sdloVAg/AAAAAP///////+b/AACAPwAAgD///wAA//+x2QAAgD8AAAAAV2r/////5v95r9Q+AACAPwAAAAD//7LZAAAAAAAAAAAAAP/////m/wAAAAAAAIA/U4gAAP//sdloVAg/AAAAAP//AAD//7HZAACAPwAAAAD////////m/wAAgD8AAIA/V2r/////5v95r9Q+AACAPwAAAAD//7HZAAAAAAAAAAAAAP/////U/wAAAAAAAIA/U4gAAP//sdloVAg/AAAAAP//AAD//7HZAACAPwAAAAD////////2/gAAgD8AAIA/V2r/////OP95r9Q+AACAPwAAAAD//7HZAAAAAAAAAAAAAP////8X/QAAAAAAAIA/U4gAAP//sdloVAg/AAAAAP//AAD//7HZAACAPwAAAAD////////m/wAAgD8AAIA/V2r/////5v95r9Q+AACAPwAAAAD//7HZAAAAAAAAAAAAAP/////m/wAAAAAAAIA/"),
+"format": 34896654455,
+"index_count": 72,
+"index_data": PackedByteArray("AAACAAEAAAADAAIABAAFAAMAAAAEAAMABgAIAAcABgAHAAkACgAJAAsABgAJAAoADAAOAA0ADAANAA8AEAAPABEADAAPABAAEgAUABMAEgAVABQAFgAXABUAEgAWABUAGAAaABkAGAAbABoAHAAdABsAGAAcABsAHgAgAB8AHgAhACAAIgAjACEAHgAiACEA"),
+"material": SubResource("StandardMaterial3D_vke7u"),
+"name": "Ivy_mat",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("fZDAdd3PePyFV2BiaP2g/+0iy7uqKPz60Wdv2UoVlf5Kz8OQSMSC932ZAO1ZMVX/qoaDbs/PKhr///lfkU5GB1Ocg0OB+EseWOrjl/I9iwvvcnyhf8cpFTHZ+r42WIMO2H2EcfDPER0umf//AABiClTEf4ff+NgedD+T5/wHxAyqLC9adLAIGwAAntXVHHwOjHfEfs7PketVaIGqgO066QjKhcjZKpn68d9ikkkv/vdtij1NcrhF7gfv0WtIPTT2E4gfhrzPreAWstKDL+rG3naySj4ZULn2j31tPh9NQfTwV7qG/cDd4ghYIj8UW23yCZLrfuTPEeROx8pc//+v42WDAAAGKgv1gTwPJnwYDPSAUbGhU8Nr5GILikKpNgfz5JEHMlxNI/Dyaingw2q33CeTbzD+pIIUCT7UrgzGQ081O3eu0sbETWRAHa67x5JNMxCMZT/u+5MREHxjBe+AlXsQ4Wd674qWxML/01fDNtRyRWgy9ESJMTHCsNOHRPAwnfklf6/0AH64AWuD5wLigCn/tn8SBc2AE9j3ZQrTimV1Hs2d5iHam6/dPGWdJGCb")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_mftwp")
+
+[node name="Ivy_002_2" type="Node3D"]
+transform = Transform3D(0.5, 0, 0, 0, -8.42937e-08, -0.5, 0, 0.5, -8.42937e-08, 0, 0, 0)
+
+[node name="Object_8" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_da85p")
+skeleton = NodePath("")
