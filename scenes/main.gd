@@ -26,7 +26,7 @@ func _on_timer_timeout1():
 
 func _on_timer_timeout2():
 	$Shrek.show()
-	shrek_animation_player.play("stomp_open")
+	shrek_animation_player.play("Warrior_idle")
 	var tween = create_tween()
-	tween.parallel().tween_property($Shrek, "position:z", $Shrek.position.z - 0.25, 0.5)
+	tween.parallel().tween_property($Shrek, "position:z", $Shrek.position.z - 0.6, 0.5)
 	toilet_animation_player.play("open")

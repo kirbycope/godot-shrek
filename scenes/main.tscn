@@ -66,7 +66,7 @@ top_level = true
 metadata/_edit_lock_ = true
 
 [node name="Shrek" parent="." instance=ExtResource("4_1c1d5")]
-transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, -0.0172087, 1.05945, 2.01347)
+transform = Transform3D(0.984808, 0, -0.173648, 0, 1, 0, 0.173648, 0, 0.984808, -0.0172087, 1.05945, 2.01347)
 visible = false
 
 [node name="Toilet" parent="." instance=ExtResource("3_nnrar")]
