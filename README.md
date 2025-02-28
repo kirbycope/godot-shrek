@@ -1,7 +1,7 @@
 ![Thumbnail](/ci/thumbnail.png)
 
 # godot-shrek
-The opening scene for Shrek (2001) in the Godot Game Engine.
+The opening scene for Shrek (2001) in the Godot game engine.
 
 ## Background
 This project was created to test [Terrain3D](https://github.com/TokisanGames/Terrain3D). I built a small hill, drew a path, and added some props.
